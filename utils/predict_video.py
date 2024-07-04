@@ -50,7 +50,7 @@ frame_height = int(cap.get(4))
 
 # 定义视频编码器和输出文件
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('output.avi', fourcc, 20.0, (frame_width, frame_height))
+out = cv2.VideoWriter('../output.avi', fourcc, 20.0, (frame_width, frame_height))
 
 while True:
     # 读取帧
