@@ -1,0 +1,6 @@
+train: F:\东北大学张伟老师-敏感信息检测加密\yolov10-main\datsets\NumWIthLetter\images\train
+val: F:\东北大学张伟老师-敏感信息检测加密\yolov10-main\datsets\NumWIthLetter\images\train
+
+# number of classes
+nc: 8
+names: ['letters', 'digits', 'chinese_characters', 'letters_digits', 'letters_chinese_characters', 'digits_chinese_characters', 'mixed_content','face']
